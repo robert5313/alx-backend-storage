@@ -1,6 +1,6 @@
--- SQL script that creates a table users following these requirements
--- With these attributes:
--- id, integer, never null, auto increment and primary key
+-- Create a SQL table named users with the following requirements.
+-- Using the following attributes:
+-- ID: integer, never null, auto-incremented, and primary key.
 -- email, string (255 characters), never null and unique
 -- name, string (255 characters)
 -- If the table already exists, your script should not fail
