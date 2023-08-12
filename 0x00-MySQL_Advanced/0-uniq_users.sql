@@ -1,10 +1,9 @@
---Write a Script that creates an SQL table named "users"
---With the following attributes:
---id = (integer, auto increment, primary key, never null)
---email = (string of 255 characters, unique, never null)
---name = (string of 255 characters)
---country (enumeration of US, CO, and TN, defaulting to US and never null)
---If the table already exists, the script should not fail.
+-- SQL script that creates a table users following these requirements
+-- With these attributes:
+-- id, integer, never null, auto increment and primary key
+-- email, string (255 characters), never null and unique
+-- name, string (255 characters)
+-- If the table already exists, your script should not fail
 
 DROP TABLE IF EXISTS users;
 CREATE TABLE users (
