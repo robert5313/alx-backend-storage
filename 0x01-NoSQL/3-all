@@ -1,2 +1,2 @@
 //List all documents in the School database
-db.school.find(printjson)
+db.school.find(printjson);
